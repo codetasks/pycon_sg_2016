@@ -1,7 +1,9 @@
 __author__ = 'maoting'
+__modified__ = 'cube'
 
 import pandas as pd
 import numpy as np
+# importing statsmodels.api as sm throws an error, import pandas.core.tools.datetimes as datetools first
 import statsmodels.api as sm
 import pylab as pl
 from scipy import stats
